@@ -7,26 +7,24 @@ namespace testarray
     {
         static void Main(string[] args)
         {
-            int[] inputArray = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-            int[] leftFold = new int[inputArray.Length / 4];
-            int[] rightFold = new int[inputArray.Length / 4];
-            int[] resultArray = new int[inputArray.Length / 2];
-
-            //Fold LEFT and RIGHT side
-            for (int i = 0; i < (inputArray.Length / 4); i++)
+            int n = int.Parse(Console.ReadLine());
+            bool[] A = new bool[n + 1];
+            for (int i = 0; i <= n; i++)
+            { A[i] = true; }
+            A[0] = false; A[1] = false;
+            for (int i = 0; i < n + 1; i++)
             {
-                leftFold[i] = inputArray[(inputArray.Length / 4) - 1 - i];
-                rightFold[i] = inputArray[inputArray.Length - 1 - i];
+                if (A[i])
+                {
+                    for (int j = 2; (j * i) <= n; j++)
+                    { A[j * i] = false; }
+                }
             }
-
-            //SUM
-            for (int i = 0; i < (inputArray.Length / 4); i++)
+            for (int j = 2; j <= n; j++)
             {
-                resultArray[i] = leftFold[i] + inputArray[inputArray.Length / 4 + i];
-                resultArray[inputArray.Length / 4 + i] = rightFold[i] + inputArray[inputArray.Length / 2 + i];
+                if (A[j] == true) { Console.Write(j + " "); }
             }
-
-            Console.WriteLine(string.Join(" ", resultArray));
+            Console.WriteLine();
         }
     }
 }

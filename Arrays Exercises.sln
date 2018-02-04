@@ -7,11 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Largest Common End", "1.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Rotate and Sum", "2. Rotate and Sum\2. Rotate and Sum.csproj", "{DC9D5ED5-1B7F-4A54-83E8-0A84B64434E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testarray", "testarray\testarray.csproj", "{CAE16C37-1D92-4096-BF95-A5104F3C4787}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Sieve of Eratosthenes with array", "testarray\4. Sieve of Eratosthenes with array.csproj", "{CAE16C37-1D92-4096-BF95-A5104F3C4787}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Fold and Sum", "3. Fold and Sum\3. Fold and Sum.csproj", "{50959471-C585-400A-9C40-542AC1E4CAB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Fold and Sum", "3. Fold and Sum\3. Fold and Sum.csproj", "{50959471-C585-400A-9C40-542AC1E4CAB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Sieve of Eratosthenes", "4. Sieve of Eratosthenes\4. Sieve of Eratosthenes.csproj", "{39B51040-286D-4A2C-BD22-5E00676BE2A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Sieve of Eratosthenes", "4. Sieve of Eratosthenes\4. Sieve of Eratosthenes.csproj", "{39B51040-286D-4A2C-BD22-5E00676BE2A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

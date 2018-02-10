@@ -14,7 +14,7 @@ namespace _07._Max_Sequence_of_Increasing_Elements
             for (int i = 0; i < array.Length - 1; i++)
             {
                 count = 0;
-                while (array[i + count] == array[i + 1 + count])
+                while (array[i + count] < array[i + 1 + count])
                 {
                     count++;
                     if (i + 1 + count > array.Length - 1)

@@ -7,12 +7,12 @@ namespace _9._Index_of_Letters
     {
         static void Main(string[] args)
         { 
-            string[] letters = new string[600];
-            string[] word = Console.ReadLine().Split().Select(string.Parse).ToArray();
+            char[] letters = new char[600];
+            string[] word = Console.ReadLine().Split().ToArray();
         
             for (char i = 'a'; i <= 'z'; i++)
             {
-                letters[i] = (char)(i).ToString;
+                letters[i] = new char[letters[i]];
                
             }
             for (int i = 0; i < letters.Length; i++)

@@ -7,25 +7,11 @@ namespace test_Array
     {
         static void Main(string[] args)
         {
-           // ushort[] array = Console.ReadLine().Split(' ').Select(ushort.Parse).ToArray();
-            int[] array = new int[] { 1, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3 };
+            char[] input = Console.ReadLine().ToCharArray();
 
-            int[] count = new int[array.Length];
-
-            foreach (ushort num in array)
+            for (int i = 0; i < input.Length; i++)
             {
-                count[num]++;
-            }
-
-            int maxValue = count.Max();
-
-            for (int i = 0; i < array.Length; i++)
-            {
-                if (count[array[i]] == maxValue)
-                {
-                    Console.WriteLine(array[i]);
-                    return;
-                }
+                Console.WriteLine("{0} -> {1}", input[i], input[i] - 'a');
             }
         }
     }

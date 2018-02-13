@@ -6,18 +6,18 @@ namespace _9._Index_of_Letters
     class Program
     {
         static void Main(string[] args)
-        { 
-            char[] letters = new char[600];
-            string[] word = Console.ReadLine().Split().ToArray();
+        {
+            char[] letters = new char[26];
+            string word = Console.ReadLine();
         
-            for (char i = 'a'; i <= 'z'; i++)
+            for (int i = 0; i <letters.Length; i++)
             {
-                letters[i] = new char[letters[i]];
+                letters[i] = (char)('a'+i);
                
             }
-            for (int i = 0; i < letters.Length; i++)
+            for (int i = 0; i < word.Length; i++)
             {
-                if(letters[i])==word[i])
+                Console.WriteLine(word[i] + " -> "+Array.IndexOf(letters,word[i]));
             {
 
             }

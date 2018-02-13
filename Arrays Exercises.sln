@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Largest Common End", "1. Largest Common End\1. Largest Common End.csproj", "{EBA064D3-9322-4B8B-90CB-8806850911A7}"
 EndProject
@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Sieve of Eratosthenes", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Compare Char Arrays", "5. Compare Char Arrays\5. Compare Char Arrays.csproj", "{C09A0538-3837-4204-9899-17A686489227}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test Array", "test Array\test Array.csproj", "{652489EA-83D2-4960-861C-153BAED9B370}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9.Index of Letters var-A", "test Array\9.Index of Letters var-A.csproj", "{652489EA-83D2-4960-861C-153BAED9B370}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Max Sequence of Equal Elements", "6. Max Sequence of Equal Elements\6. Max Sequence of Equal Elements.csproj", "{F7A0F1A3-36A6-4BF7-B322-208BC52CEA46}"
 EndProject
@@ -23,9 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. Max Sequence of Increasi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8. Most Frequent Number", "8. Most Frequent Number\8. Most Frequent Number.csproj", "{B1EE7F8F-5F49-458B-A94D-84D557BA6E5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.CompareCharArrays 100100", "5.CompareCharArrays 100100\5.CompareCharArrays 100100.csproj", "{77723D2E-64A5-4C62-8D47-5AC02D3BCA71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.CompareCharArrays 100100", "5.CompareCharArrays 100100\5.CompareCharArrays 100100.csproj", "{77723D2E-64A5-4C62-8D47-5AC02D3BCA71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Index of Letters", "9. Index of Letters\9. Index of Letters.csproj", "{C7A61FDB-CB9F-422F-9F37-3262FC4EC90E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9. Index of Letters", "9. Index of Letters\9. Index of Letters.csproj", "{C7A61FDB-CB9F-422F-9F37-3262FC4EC90E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Pairs by Difference", "10. Pairs by Difference\10. Pairs by Difference.csproj", "{D31350B4-8BD5-4207-BA8C-B8589A2CE00B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Equal Sums", "11. Equal Sums\11. Equal Sums.csproj", "{7D339537-C6B6-44BE-9F35-F8EAD6FE1D5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{C7A61FDB-CB9F-422F-9F37-3262FC4EC90E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7A61FDB-CB9F-422F-9F37-3262FC4EC90E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7A61FDB-CB9F-422F-9F37-3262FC4EC90E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31350B4-8BD5-4207-BA8C-B8589A2CE00B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31350B4-8BD5-4207-BA8C-B8589A2CE00B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31350B4-8BD5-4207-BA8C-B8589A2CE00B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31350B4-8BD5-4207-BA8C-B8589A2CE00B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D339537-C6B6-44BE-9F35-F8EAD6FE1D5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D339537-C6B6-44BE-9F35-F8EAD6FE1D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D339537-C6B6-44BE-9F35-F8EAD6FE1D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D339537-C6B6-44BE-9F35-F8EAD6FE1D5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
